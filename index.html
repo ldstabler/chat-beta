@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MsgRoom - Windows 96 Chat</title>
+        <link rel="stylesheet" href="css/font36.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/shell36.css">
+        <link rel="stylesheet" href="css/ua-chrome.css">
+        <link rel="stylesheet" href="css/chat.css">
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/app.js?v=2"></script>
+        <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="separator"></div>
+            <div class="messages"></div>
+            <div class="user-input">
+                <span class="nickname">Unknown</span>
+                <input type="text" class="message-box w96-textbox">
+            </div>
+        </div>
+
+        <div class="members">
+            <span class="title bold-noaa">Online Members</span>
+            <div class="list">
+                
+            </div>
+        </div>
+
+        <script>app();</script>
+    </body>
+</html>
